@@ -21,7 +21,7 @@ export default function Navbar() {
 
   return (
     <>
-      <header className="fixed w-full bg-transparent z-50 border-b border-pink-500/30">
+      <header className="fixed w-full bg-transparent z-50 border-b border-pink-500/30 backdrop-blur-lg border-b border-neutral-700/80">
         <nav className="container mx-auto px-4 h-16 flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-2">
             <Image 
