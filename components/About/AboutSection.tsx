@@ -54,16 +54,16 @@ export default function AboutSection({
       </div>
 
       {isMobile ? (
-        <div className="container relative z-20 px-4 mx-auto flex flex-col items-center justify-end h-screen pb-16">
-          <div className="max-w-2xl text-center">
-            <div className="space-y-4"> {/* Reduzi o espaço vertical */}
-              <span className="text-white text-sm uppercase tracking-widest font-medium">
+        <div className="container relative z-20 px-4 mx-auto flex flex-col items-center justify-end h-screen pb-10">
+          <div className="max-w-md text-center">
+            <div className="space-y-2"> {/* Reduzi o espaço vertical */}
+              <span className="text-white text-xs uppercase tracking-wide font-medium">
                 {smallText}
               </span>
-              <h2 className="text-4xl md:text-5xl font-bold leading-tight text-white">
+              <h2 className="text-2xl md:text-3xl font-bold leading-snug text-white">
                 {title}
               </h2>
-              <p className="text-gray-200 text-xl leading-relaxed">
+              <p className="text-gray-300 text-sm leading-normal">
                 {description}
               </p>
             </div>

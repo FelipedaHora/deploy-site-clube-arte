@@ -67,27 +67,32 @@ export default function Hero() {
       {isMobile ? (
         // Layout Mobile
         <div className="relative z-10 flex items-end justify-center h-screen sm:items-center">
-          <div className={`container px-4 mx-auto transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'} sm:mb-0 mb-10`}>
-            <div className="max-w-4xl text-center sm:text-left">
-              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mt-16 mb-6 text-white leading-snug font-poppins">
-                <span className="text-4xl sm:text-5xl lg:text-6xl">Posicione-se no Digital,</span>
-                <br />
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 font-poppins text-4xl sm:text-5xl lg:text-6xl">
-                  Conecte-se com Pessoas
-                </span>
-                <br />
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 font-poppins text-4xl sm:text-5xl lg:text-6xl">
-                  e Venda mais.
-                </span>
-              </h1>
-              <p className="text-lg sm:text-xl lg:text-2xl text-gray-200 mb-6 max-w-3xl leading-relaxed font-poppins">
+          <div
+            className={`container px-4 mx-auto transition-all duration-1000 ${
+              isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+            } sm:mb-0 mb-16`}
+          >
+            <div className="max-w-3xl text-center sm:text-left">
+            <h1 className="text-lg sm:text-xl lg:text-2xl font-bold tracking-tight mt-6 mb-2 text-white leading-snug font-poppins">
+              <span className="text-xl sm:text-2xl lg:text-3xl">Posicione-se no Digital,</span>
+              <br />
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 font-poppins text-xl sm:text-2xl lg:text-3xl">
+                Conecte-se com Pessoas
+              </span>
+              <br />
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 font-poppins text-xl sm:text-2xl lg:text-3xl">
+                e Venda mais.
+              </span>
+            </h1>
+
+              <p className="text-sm sm:text-lg lg:text-xl text-gray-200 mb-6 leading-relaxed font-poppins">
                 Somos especialistas em posicionamento nas redes sociais para alavancar suas vendas.
               </p>
               <div className="flex flex-col items-center sm:items-start gap-4">
-                <Button 
+                <Button
                   size="lg"
-                  onClick={scrollToAbout} 
-                  className="group bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 hover:bg-primary/90 font-poppins w-64 h-16 sm:w-[485px] sm:h-[97px] text-lg sm:text-2xl"
+                  onClick={scrollToAbout}
+                  className="group bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 hover:bg-primary/90 font-poppins w-48 h-12 sm:w-64 sm:h-16 text-sm sm:text-lg"
                 >
                   Começar Agora
                 </Button>
@@ -95,6 +100,7 @@ export default function Hero() {
             </div>
           </div>
         </div>
+
       ) : (
         // Layout Web
         <div className={`relative z-10 container px-4 mx-auto transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
