@@ -25,12 +25,12 @@ const portfolioItems = [
     logoAnimation: "/images/company-gif.gif"
   },
   {
-    title: "Campanha de Mídia Social",
+    title: "Branding & Campanha de Mídia Social",
     client: "Mais que Dim Dim",
     image: "/images/CAPA-DIMDIM.png",
-    description: "Estratégia completa de mídia social para uma marca de moda premium, incluindo direção criativa e produção de conteúdo.",
-    challenge: "Aumentar o engajamento nas redes sociais e estabelecer uma presença digital consistente com a identidade premium da marca.",
-    solution: "Desenvolvemos uma linguagem visual sofisticada e uma estratégia de conteúdo que destaca a qualidade e exclusividade dos produtos.",
+    description: "Estratégia completa de mídia social para uma confeitaria, incluindo direção criativa e produção de conteúdo.",
+    challenge: "Aumentar o engajamento nas redes sociais e estabelecer uma presença digital consistente com a identidade da marca.",
+    solution: "Desenvolvemos uma linguagem visual sofisticada e uma estratégia de conteúdo que destaca a qualidade dos produtos.",
     mainImage: "/images/dimdim-gif.gif",
     gallery: [
       "/images/post1-dimdim.jpg",
@@ -39,12 +39,12 @@ const portfolioItems = [
     ]
   },
   {
-    title: "Gerenciamento de Redes Sociais",
+    title: "Branding & Gerenciamento de Redes Sociais",
     client: "Maju Restaurante",
     image: "/images/CAPA-MAJU.png",
-    description: "Redesign completo do website para uma rede de restaurantes finos, focando em experiência do usuário e conversão.",
-    challenge: "Criar uma presença online que refletisse a experiência gastronômica única dos restaurantes e facilitasse reservas.",
-    solution: "Desenvolvemos um website responsivo com visual impactante e sistema de reservas integrado.",
+    description: "Estratégia de gerenciamento de redes sociais para um restaurante especializado em pratos exclusivos, destacando a alta qualidade dos ingredientes e a experiência gastronômica premium.",
+    challenge: "Consolidar a presença digital do restaurante, transmitindo a exclusividade dos pratos e atraindo um público que valorize ingredientes de alta qualidade.",
+    solution: "Criamos um plano estratégico de redes sociais com conteúdos visuais impactantes, storytelling envolvente e campanhas interativas, promovendo a autenticidade e o prestígio da marca.",
     mainImage: "/images/BACKGROUND-MAJU.png",
     gallery: [
       "/images/post1-maju.png",
@@ -53,12 +53,12 @@ const portfolioItems = [
     ]
   },
   {
-    title: "Fotografia de Produto",
+    title: "Gerenciamento de Redes Sociais",
     client: "RK Conveniência",
     image: "/images/CAPA-RK.png",
-    description: "Sessão fotográfica profissional para linha de produtos de luxo, com foco em detalhes e acabamentos.",
-    challenge: "Capturar a qualidade e sofisticação dos produtos através de imagens que destacassem seus detalhes únicos.",
-    solution: "Realizamos uma produção fotográfica com iluminação especializada e composições que valorizam cada produto.",
+    description: "Gestão de redes sociais para uma distribuidora de bebidas, unindo estratégias para atrair clientes de varejo e fortalecer parcerias no atacado.",
+    challenge: "Ampliar o alcance digital da empresa, destacando a diversidade do portfólio de bebidas e posicionando a marca como referência tanto para consumidores finais quanto para revendedores.",
+    solution: "Implementamos uma estratégia de conteúdo focada em campanhas segmentadas, divulgação de promoções e comunicação alinhada às necessidades dos públicos varejista e atacadista.",
     mainImage: "/images/BACKGROUND-RK.png",
     gallery: [
       "/images/post1-rk.png",
@@ -67,12 +67,12 @@ const portfolioItems = [
     ]
   },
   {
-    title: "Material de Marketing",
-    client: "Prime Imóveis",
+    title: "Branding & Gerenciamento de Redes Sociais",
+    client: "Cheiro de Rica",
     image: "/images/CAPA-CHEIRO.png",
-    description: "Desenvolvimento de material promocional completo para lançamentos imobiliários de alto padrão.",
-    challenge: "Criar materiais que transmitissem o luxo e exclusividade dos empreendimentos, mantendo a objetividade das informações.",
-    solution: "Produzimos um kit de marketing premium com acabamentos sofisticados e apresentação imersiva dos projetos.",
+    description: "Gestão de redes sociais para uma perfumaria especializada em perfumes importados e decantes sofisticados, destacando exclusividade e elegância.",
+    challenge: "Fortalecer a presença online da marca, atraindo clientes que valorizam sofisticação e a experiência sensorial única dos perfumes importados.",
+    solution: "Desenvolvemos uma estratégia de conteúdo focada em storytelling emocional, visuais refinados e campanhas que ressaltam a exclusividade e versatilidade dos produtos.",
     mainImage: "/images/BACKGROUND-CHEIRO.png",
     gallery: [
       "/images/post1-cheiro.png",
@@ -81,12 +81,12 @@ const portfolioItems = [
     ]
   },
   {
-    title: "Campanha Digital",
-    client: "Athletic Pro",
+    title: "Gerenciamento de Redes Sociais",
+    client: "Neurodesenvolver",
     image: "/images/CAPA-GREICY.png",
-    description: "Campanha digital integrada para lançamento de nova linha de produtos esportivos.",
-    challenge: "Criar uma campanha que engajasse o público-alvo e gerasse buzz nas redes sociais.",
-    solution: "Desenvolvemos uma estratégia multiplataforma com influenciadores e conteúdo interativo.",
+    description: "Gestão de redes sociais para uma clínica multidisciplinar especializada em psicopedagogia, neuropsicopedagogia, psicomotricidade, fonoaudiologia e psicologia infantil, promovendo o desenvolvimento integral das crianças.",
+    challenge: "Aumentar a visibilidade da clínica no meio digital, comunicando a importância de uma abordagem multidisciplinar no cuidado e desenvolvimento infantil.",
+    solution: "Criamos uma estratégia de conteúdo educativo e acolhedor, com materiais informativos, depoimentos, e postagens que engajam famílias interessadas em soluções para o desenvolvimento infantil.",
     mainImage: "/images/BACKGROUND-GREICY.png",
     gallery: [
       "/images/post1-greicy.png",
