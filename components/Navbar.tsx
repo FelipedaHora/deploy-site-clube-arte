@@ -19,6 +19,11 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const isMobile = useMediaQuery({ maxWidth: 768 });
 
+  const scrollToAbout = () => {
+    const servicesSection = document.getElementById('about');
+    servicesSection?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <>
       <header className="fixed w-full bg-transparent z-50 border-b border-pink-500/30 backdrop-blur-lg border-b border-neutral-700/80">
@@ -66,7 +71,10 @@ export default function Navbar() {
             </NavigationMenu>
           </div>
   
-          <Button className="hidden md:inline-flex bg-pink-500 hover:bg-pink-600 text-white shadow-neon-pink">
+          <Button
+          className="hidden md:inline-flex bg-pink-500 hover:bg-pink-600 text-white shadow-neon-pink"
+          onClick={scrollToAbout}
+          >
             Começar Agora
           </Button>
   
